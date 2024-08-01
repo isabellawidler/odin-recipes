@@ -1,0 +1,62 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-header {
+    display: flex;
+    background-color: rgb(102, 85, 94);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 32px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content {
+    padding-left: 32px;
+}
+
+.description {
+    padding-left: 25px;
+    max-width: 800px;
+}
+
+.prep-details {
+    display: flex;
+    padding-left: 25px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ing {
+    background-color: #eee;
+    min-width: 400px;
+    padding: 16px;
+}
+
+.step {
+    padding-bottom: 36px;
+    max-width: 800px;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  a {
+    color: rgb(102, 85, 94);
+  }
